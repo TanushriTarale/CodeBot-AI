@@ -1,0 +1,28 @@
+# Ignore Python-related files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignore development environment files
+venv/
+env/
+.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore static and media files
+staticfiles/
+media/
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore deployment-specific files
+*.env
+*.log
+*.pid
